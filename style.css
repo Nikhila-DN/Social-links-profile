@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+*{
+    font-family: "inter";
+    text-align: center;
+    background-color: var(--Grey900);
+    color: var(--White);
+}
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+.container{
+    width: 400px;
+    margin: 100px auto;
+    display: block;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+
+.container, h1, p, .social-links ,br, img{
+    font-family: "inter";
+    background-color: var(--Grey800);
+    color: var(--White);
+    text-align: center;
+}
+
+
+img{
+    border-radius: 50%;
+}
+
+p{
+    font-family: "inter";
+    font-size: 14px;
+}
+
+p:first-of-type{
+    color: var(--Green);
+    font-size: 18px;
+}
+
+.social-links{
+    display: block;
+    justify-content: space-around;
+}
+
+button{
+    background-color: var(--Grey700);
+    color: var(--White);
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 7px auto;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: auto;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
